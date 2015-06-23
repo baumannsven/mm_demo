@@ -1,0 +1,158 @@
+@media only screen and (max-width: 1000px) { 
+
+  body {
+    background:transparent url(../images/bgr-body-mobile.gif) repeat-y left top;
+  }
+
+  header .inside {
+    width:100%;
+  }
+
+  #community {
+    margin-right:15px;
+  }
+
+  #container {
+    width:auto;
+  }
+
+  .detail .layout_full {
+    padding-right:5%;
+  }
+
+  footer {
+    background-image:none;
+    border-top:1px solid #f2f2f2;
+  }
+
+  footer .inside {
+    width:auto;
+  }
+
+}
+
+@media only screen and (max-width: 985px) {
+
+  .list .layout_full .item {
+    width:46%;
+    margin-right:4%;
+    margin-bottom:4%;
+  }
+
+  .list .layout_full .item:nth-child(3n+3) {
+    margin-right:4%;
+  }
+
+}
+
+@media only screen and (max-width: 815px) {
+
+  .list .layout_full .item {
+    width:95%;
+    margin-right:5%;
+    margin-bottom:5%;
+  }
+
+  .detail .layout_full figure {
+    float:none;
+  }
+
+  .detail .layout_full p.date {
+    float:none;
+    clear:both;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+
+}
+
+@media only screen and (max-width: 580px) {
+
+  body {
+    background-image:none;
+    background-color:#fff;
+  }
+
+  #nav-mobile {
+    display:block;
+    margin-top:28px;
+    margin-right:15px;
+    height:28px;
+    width:28px;
+    background:transparent url(../images/icon-menu.png) no-repeat center center;
+    float:right;
+    cursor:pointer;
+  }
+
+  #container {
+    padding-bottom:0;
+    padding-left:0;
+    position:relative;
+  }
+
+  aside, 
+  #community {
+    display:none;
+  }
+
+  aside {
+    position:absolute;
+    left:0;
+    margin:0;
+    height:100%;
+    top:0;
+    z-index:1;
+    background-color:#f2f2f2;
+    border-right:1px solid #dddddd;
+    border-bottom:1px solid #dddddd;
+    padding-bottom:20px;
+  }
+
+  #left.active {
+    display:block;
+  }
+
+  #main {
+    margin-left:4%;
+    float:none;
+    width:auto;
+  }
+
+  .list .layout_full .item {
+    width:46%;
+    margin-right:4%;
+  }
+
+  footer {
+    margin-top:0;
+    position:static;
+  }
+
+  footer .inside {
+    padding-left:10px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  .list .layout_full .item {
+    width:95%;
+    margin-right:5%;
+    margin-bottom:5%;
+  }
+
+  #main {
+    margin-left:5%;
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+  h1 a {
+    padding-left:0;
+    background-image:none;
+  }
+
+}
