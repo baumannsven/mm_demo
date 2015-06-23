@@ -6,5 +6,5 @@ This is a complete Demo for MetaModels
 Requirements
 ============
 
-Contao: >3.1,<3.3
+Contao: >3.2,<4
 MetaModels: ~2.0
